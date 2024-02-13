@@ -10,7 +10,7 @@ public class UnitTest1
     public void TestStartsWithUpper()
     {
         // Tests that we expect to return true.
-        string[] words = { "Alphabet", "Zebra", "ABC", "Αθήνα", "Москва","uwu" };
+        string[] words = { "Alphabet", "Zebra", "ABC", "Αθήνα", "Москва","Uwu" };
         foreach (var word in words)
         {
             bool result = word.StartsWithUpper();
